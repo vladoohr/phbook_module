@@ -8,7 +8,7 @@ module Operations
 	end
 
 	def Operations.prompt
-		puts "Please choose action: create, delete, search, list, help?"
+		puts "Please choose action: create, delete, search, list, quit, help?"
 		print "phb>"
 		value = gets.chomp
 		return value
